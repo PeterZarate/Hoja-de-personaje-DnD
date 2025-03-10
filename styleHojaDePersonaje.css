@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container{
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label, input, select{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    background: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.character-sheet{
+    margin-top: 20px;
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
