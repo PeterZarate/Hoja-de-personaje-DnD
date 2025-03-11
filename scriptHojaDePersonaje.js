@@ -1,7 +1,7 @@
 function generateCharacter() {
     const name = document.getElementById("name").value;
     const race = document.getElementById("race").value;
-    const charClass = document.getElementById("class").value;
+    const charclass = document.getElementById("class").value;
     const strength = document.getElementById("strength").value;
     const dexterity = document.getElementById("dexterity").value;
     const constitution = document.getElementById("constitution").value;
