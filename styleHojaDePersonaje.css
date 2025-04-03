@@ -52,3 +52,36 @@ button{
 .extra-parameters textarea {
     height: 60px;
 }
+
+.character-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.container, .extra-parameters{
+    flex: 1;
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    max-width: 55%;
+}
+
+.extra-parameters{
+    max-width: 40%;
+}
+
+@media(max-width: 768px){
+    .character-container{
+        flex-direction: column;
+    }
+    
+    .container, .extra-parameters{
+        max-width: 100%;
+    }
+}
